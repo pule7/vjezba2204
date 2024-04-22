@@ -18,3 +18,11 @@ if(z === 2){
 }
 
 console.log("x=" + x);
+
+x = 0;
+
+for(x = 1; x < 20; x++){
+    if( x % 2 == 0) {
+        console.log("Broj " + x + " je paran");
+    }
+}
